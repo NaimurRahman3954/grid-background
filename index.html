@@ -13,7 +13,7 @@
    <style>
       * {
          /* CSS debug */
-         outline: 1px solid red;
+         /* outline: 1px solid red; */
       }
 
       body {
@@ -38,36 +38,44 @@
       }
       
       #content h3{
-         font-size: 30px;
+         font-size: 20px;
          text-align: center;
-         padding: 0 10vw;
+         padding: 0 20vw;
       }
       
       span{
          border-bottom: 3px solid #38BDF8;
       }
-
+      
       #content button{
-         width: fit-content;
-         margin: 0 auto;
-         margin-top: 20px;
-         padding: 5px 10px;
+         padding: 10px 25px;
          border-radius: 5px;
+         /* background-color: transparent; */
          background-color: #38BDF8;
          font-size: 16px;
+         font-weight: bold;
+         border: none;
+         color: white;
+         font-family: 'Courier New', Courier, monospace;
+      }
+      
+      a{
+         margin: 0 auto;
+         margin-top: 20px;
+         cursor: pointer;
       }
    </style>
 </head>
 <body>
    <div id="content">
       <h3>
-         <span>Grid background</span> on this webpage <br>has been created using <span>CSS</span>!
+         <span>Grid background</span> on this webpage has been created using <span>CSS</span>!
       </h3>
-      <button>
-         <a href="https://github.com/NaimurRahman3954/grid-background">
-            Check out the code on GitHub <i class="fa-solid fa-arrow-right"></i>
-         </a>
-      </button>
+      <a href="https://github.com/NaimurRahman3954/grid-background">
+         <button>
+            GitHub <i class="fa-solid fa-arrow-right"></i>
+         </button>
+      </a>
    </div>
 </body>
 </html>
